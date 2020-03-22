@@ -1,0 +1,12 @@
+spring:
+  #数据源配置
+  data:
+    mongodb:
+      #主机地址
+      host: 192.168.186.130
+      #默认端口
+      port: 27017
+      #数据库
+      database: articledb
+      #也可以使用uri连接
+#      uri: mongodb://192.168.186.130:27017/articledb
